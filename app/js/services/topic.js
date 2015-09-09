@@ -46,7 +46,7 @@ angular.module('cnodejs.services')
       var currentUser = User.getCurrentUser();
       // add send from
       if (Settings.getSettings().sendFrom) {
-        reply.content = replyData.content + '\n 自豪地采用 [CNodeJS ionic](https://github.com/lanceli/cnodejs-ionic)';
+        reply.content = replyData.content + '\n 爱和自由，你我同享';
       }
       return resource.reply({
         topicId: topicId,

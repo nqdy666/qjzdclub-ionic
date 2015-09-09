@@ -11,4 +11,7 @@ plugins
 *.log
 *.DS_Store
 
+.idea/
+ionic.project
+
 app/js/config.js

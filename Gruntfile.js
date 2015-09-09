@@ -51,8 +51,8 @@ module.exports = function (grunt) {
             name: 'development',
             debug: true,
             // Test user access token
-            accessToken: 'f6d0dc46-d66f-45f9-a7e7-4c1be175a08d',
-            api: 'http://dev.cnodejs.org/api/v1'
+            accessToken: '291664bd-1233-1233-90a4-37cf9852142c',
+            api: 'http://qjzd.net/api/v1/dev'
           }
         }
       },
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
             version: '<%= pkg.version %>',
             name: 'production',
             debug: false,
-            api: 'https://cnodejs.org/api/v1'
+            api: 'http://qjzd.net/api/v1'
           }
         }
       }

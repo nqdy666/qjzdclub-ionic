@@ -23,8 +23,8 @@ angular.module('cnodejs.controllers')
   $scope.now = new Date();
 
   // mail feedback
-  var feedbackMailAddr = 'hi@lanceli.com';
-  var feedbackMailSubject = 'CNode社区 Feedback v' + ENV.version;
+  var feedbackMailAddr = 'qinjinzhidian@126.com';
+  var feedbackMailSubject = '秦晋之巅社区 Feedback v' + ENV.version;
   var device = ionic.Platform.device();
   var feedbackMailBody = device.platform + ' ' + device.version + ' | ' + device.model;
   $scope.feedback = function() {

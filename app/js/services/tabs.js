@@ -16,6 +16,10 @@ angular.module('cnodejs.services')
       label: '最新'
     },
     {
+      value: 'good',
+      label: '精华'
+    },
+    {
       value: 'share',
       label: '分享'
     },
@@ -24,12 +28,24 @@ angular.module('cnodejs.services')
       label: '问答'
     },
     {
-      value: 'job',
-      label: '招聘'
+      value: 'coder',
+      label: '码农'
     },
     {
-      value: undefined,
-      label: '其他'
+      value: 'shoot',
+      label: '摄影'
+    },
+    {
+      value: 'bike',
+      label: '单车'
+    },
+    {
+      value: 'love',
+      label: '爱情'
+    },
+    {
+      value: 'talk',
+      label: '聊聊'
     }
   ];
 });
