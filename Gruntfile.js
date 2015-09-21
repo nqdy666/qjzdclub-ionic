@@ -431,6 +431,9 @@ module.exports = function (grunt) {
 
   // Register tasks for all Cordova commands
   _.functions(cordovaCli).forEach(function (name) {
+    if (name === "clean") {
+      return;
+    }
     grunt.registerTask(name, function () {
       this.args.unshift(name.replace('cordova:', ''));
       // Handle URL's being split up by Grunt because of `:` characters

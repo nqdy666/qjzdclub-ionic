@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.lanceli.cnodejs"
-  version="1.2.2"
+<widget id="net.qjzd.club"
+  version="1.0.0"
   android-versionCode="117"
   ios-CFBundleVersion="117"
   xmlns="http://www.w3.org/ns/widgets"
@@ -10,12 +10,12 @@
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <name display="CNode社区">CNodeJs</name>
+    <name display="秦晋之巅社区">QJZD CLUB</name>
     <description>
-      Ionic app for https://cnodejs.org
+      Ionic app for https://qjzd.net
     </description>
-    <author email="lyfuture@gmail.com" href="http://github.com/lanceli">
-      Lance Li
+    <author email="qinjinzhidian@126.com" href="http://github.com/nqdy666">
+      Nian Qin
     </author>
     <content src="index.html" />
     <access origin="*" />
