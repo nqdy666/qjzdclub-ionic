@@ -51,7 +51,7 @@ module.exports = function (grunt) {
             name: 'development',
             debug: true,
             // Test user access token
-            accessToken: '291664bd-1233-1233-90a4-37cf9852142c',
+            accessToken: '',
             api: 'http://qjzd.net/api/v1/dev'
           }
         }
